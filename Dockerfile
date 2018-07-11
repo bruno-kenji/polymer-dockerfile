@@ -8,4 +8,6 @@ WORKDIR /home/node/app
 
 RUN apk add --update --no-cache bash
 
+RUN npm config set unsafe-perm true
+
 RUN npm install -g bower@1.8 polymer-cli@1.7 --unsafe-perm
