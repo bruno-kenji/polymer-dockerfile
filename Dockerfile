@@ -6,7 +6,7 @@ ENV PATH=$PATH:/home/node/.npm-global/bin
 
 WORKDIR /home/node/app
 
-RUN apk add --update --no-cache bash
+RUN apk add --update --no-cache bash git
 
 RUN npm config set unsafe-perm true
 
