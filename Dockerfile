@@ -4,6 +4,4 @@ ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 
 WORKDIR /home/node/app
 
-USER node
-
 RUN npm install -g bower@1.8 polymer-cli@1.7
