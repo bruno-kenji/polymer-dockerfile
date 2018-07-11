@@ -6,4 +6,6 @@ ENV PATH=$PATH:/home/node/.npm-global/bin
 
 WORKDIR /home/node/app
 
+RUN apk add --update --no-cache bash
+
 RUN npm install -g bower@1.8 polymer-cli@1.7 --unsafe-perm
