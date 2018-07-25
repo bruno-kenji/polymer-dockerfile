@@ -10,4 +10,4 @@ RUN apk add --update --no-cache bash git
 
 RUN npm config set unsafe-perm true
 
-RUN npm install -g bower@1.8 polymer-cli@1.7 --unsafe-perm
+RUN npm install -g bower@1.8 bower-locker@1.0 polymer-cli@1.7 --unsafe-perm
